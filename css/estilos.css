@@ -1,0 +1,120 @@
+/* Estilos de texto para la página */
+/* Cambiar por una tipografía de google fonts para cuerpo de texto*/
+
+body {
+    font-family: 'Inclusive Sans', sans-serif;
+    background-color: #e9e3d7;
+}
+
+/* Agregar una tipografía de google fonts para los títulos*/
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+p {
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+/*Estilos para el header y el menú*/
+header {
+    background-color: #4075c8;
+    color: #F0F1FA;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Estilos de banner */
+#banner {
+    background-image: url("../img/fondo.png");
+    background-size: auto;
+    color: #F0F1FA;
+    /*Cambiar el background por una imagen usar background image */
+    padding: 150px;
+    text-align: center;
+}
+
+/*Estilos para la sección nosotors*/
+#about {
+    background-color: #e9e3d7;
+    color: #162130;
+    padding: 40px;
+    text-align: center;
+}
+
+#inspo {
+    display: inline-block;
+    display: flexbox;
+}
+
+
+#servicios {
+    background-color: #e9e3d7;
+    color: #162130;
+    display: inline-block;
+}
+
+
+/*Si no se agrega algo cuando se llama a etiquetas como p,h1,ect por que vienen heredarod de el html*/
+/*Se usa # para llamar id son identificadores inventados no existen dentro del html, el ID solo se puede agregar una vez en el HTML, regularmente se utlizan clases por que se pueden aplicar mas de una vez*/
+/*Se usa . para llamar class*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-column {
+    flex-basis: 50%;
+}
+
+.right-column {
+    flex-basis: 50%;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+
+/*Estilos para el footer*/
+footer {
+    background-color: #4075c8;
+    color: #F0F1FA;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Existen unidades en css como em o rem, son unidades mas complejas el rem sintetisa las unidades */
+/*Es mejor decir que se justifique el contenido, selecciona cualquier cosa y lo alinea, aling text le dara preferencia a el texto, en teoria funcionan igual, sin embargo el aling text tiende a fallar si no hay texto*/
+/*Dsiplay, contrtola como se mostrara el contenido*/
+/*css es una hoja de estilos en cascada, se escriben de manera vertical y se aplica lo ultimo escrito en referencia al elementos que se esta tomando*/
+/*padding:relleno, border:marco, margin:margen, modelo de caja, el padding es la basa mas grande fuera el cuadro de contenido, el borde es la linea que se puede visualizar, el margin como tal es el margen que tiene el contenido por fuera*/
